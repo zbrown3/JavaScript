@@ -9,3 +9,5 @@ console.log(concept);
 const removeElement = newArr => newArr.pop();
 removeElement(concept);
 console.log(concept);
+
+export { changeArr };

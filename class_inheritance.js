@@ -24,3 +24,4 @@ class Nurse extends HospitalEmployee { // extend keyword makes the methods of th
     }
 } 
 const nurseOlynyk = new Nurse('Olynyk',['Trauma','Pediatrics']);
+console.log(nurseOlynyk.remainingVacationDays);

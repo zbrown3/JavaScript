@@ -19,3 +19,5 @@ const robot = {
     
   };
   robot.numOfSensors = 100;
+
+  // Setters usually have a type check and are only used for properties that should not be changed directly with _<propertyName>.

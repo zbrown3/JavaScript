@@ -11,3 +11,5 @@ const robot = {
   };
   
 console.log(robot.energyLevel);
+
+// properties with _ in front need a getter and usually a type check.  Getter name doesn't need _ in front.
